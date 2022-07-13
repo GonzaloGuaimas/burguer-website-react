@@ -33,6 +33,62 @@ h1,h2,h3,h4,h5,h6{
   line-height: normal;
 }
 
+/*---------- ORDER Css---------------------*/
+
+.order {
+  padding: 0 0 50px 0;
+  position: relative;
+  margin-top: 100px;
+}
+.order-bx {
+  background: #151515;
+  border-radius: 20px;
+  text-align: center;
+  padding: 60px 10px;
+  margin-top: 60px;
+}
+.order h2 {
+  color: #F48C0A;
+	font-size: 45px;
+	font-weight: 700;
+}
+.order p {
+    color: #B8B8B8;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    margin: 14px 0 75px 0;
+}
+.list-group-item{
+  background-color: #F48C0A !important;
+  color: rgb(0, 0, 0) !important;
+  height: 120px;
+  border-radius: 10px !important;
+  margin-bottom: 40px !important;
+}
+.list-group-item h2{
+  color: #000000;
+  font-size: 20px;
+  font-weight: 900;
+  text-align: start;
+}
+.list-group-item h3{
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: 900;
+  text-align: start;
+}
+.list-group-item p{
+  color: #000000;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  margin: 14px 0 75px 0;
+}
+.list-group-item img {
+  width: 50%;
+  margin-top: -80px;
+}
 /*-----------ITEM Css-----------------------*/
 
 .item {

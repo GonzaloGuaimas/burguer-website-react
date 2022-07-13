@@ -33,7 +33,7 @@ export const Item = () => {
                         <h2>THE KING MOLA</h2>
                         <hr></hr>
                         <h3>La burguer mágica, la de los aros de cebolla</h3>
-                        <img width={400} src={kingmola} alt="Header"></img>
+                        <img width={350} src={kingmola} alt="Header"></img>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme item-slider">
                             <div className="item">
                                 <h4>PAN DE PAPA</h4>
@@ -70,7 +70,7 @@ export const Item = () => {
                         <h2>THE KING MOLA</h2>
                         <hr></hr>
                         <h3>La burguer mágica, la de los aros de cebolla</h3>
-                        <img width={400} src={kingmola} alt="Header"></img>
+                        <img width={350} src={kingmola} alt="Header"></img>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme item-slider">
                             <div className="item">
                                 <h4>PAN DE PAPA</h4>
