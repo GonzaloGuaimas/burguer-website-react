@@ -3,8 +3,14 @@ import Badge from 'react-bootstrap/Badge';
 import ListGroup from 'react-bootstrap/ListGroup';
 import kingmola from "../assets/burguers/the-king-mola.png";
 import {Col} from 'react-bootstrap';
+import instagram from '../assets/img/whatsapp.png';
 
 export const Order = () => {
+
+  const openInNewTab = url => {
+    window.open(url, '_blank', 'noopener,noreferrer');
+  };
+  
   return (
 
     <section className="order" id="order">
@@ -39,6 +45,13 @@ export const Order = () => {
                             <img src={kingmola}></img>
                           </ListGroup.Item>
                         </ListGroup>
+
+                        <div className='total'>
+                          <h4>TOTAL</h4>
+                          <h5>$4.500</h5>
+                        </div>
+                        
+                        <button className='pedir-wpp' onClick={()=>openInNewTab("https://wa.link/d9hfzj")}><img src={instagram} alt="ig"></img> Hacer Pedido</button>
                     </div>
                 </div>
             </div>

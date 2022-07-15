@@ -56,8 +56,7 @@ export const Item = () => {
                                 <h5>(100 Gr C/U BLEND de 3 Cortes)</h5>
                             </div>
                         </Carousel>
-
-                        <span className="tagline">¡LA QUIERO!</span>
+                        <button className='btn-pedido' onClick={()=>console.log('Hacer Pedido')} >!La Quiero¡</button>
                         <h5>Toca para Agregar al pedido</h5>
                     </div>
                 </div>
@@ -94,7 +93,7 @@ export const Item = () => {
                                 <h5>(100 Gr C/U BLEND de 3 Cortes)</h5>
                             </div>
                         </Carousel>
-                        <span className="tagline">¡LA QUIERO!</span>
+                        <button className='btn-pedido' onClick={()=>console.log('Hacer Pedido')} >!La Quiero¡</button>
                         <h5>Toca para Agregar al pedido</h5>
                     </div>
                 </div>

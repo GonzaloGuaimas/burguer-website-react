@@ -52,6 +52,45 @@ h1,h2,h3,h4,h5,h6{
 	font-size: 45px;
 	font-weight: 700;
 }
+.order h4 {
+  color: #F48C0A;
+	font-size: 45px;
+	font-weight: 700;
+}
+.order h5{
+  color: #ffffff;
+  font-size: 45px;
+  font-weight: 900;
+  text-align: end;
+  width: 100%;
+}
+.order .total{
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+}
+
+
+.order .pedir-wpp{
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  padding: 8px 50px;
+  background-color: #44C654;
+  border: 3px solid rgba(255, 255, 255, 0.5);
+  font-size: 20px;
+  margin-top: 50px;
+  margin-bottom: 5px;
+  display: inline-block;
+  border-radius: 20px;
+}
+.order .pedir-wpp:hover {
+  background-color: #44C654;
+  border: 3px solid #ffffff;
+}
+
+
+
 .order p {
     color: #B8B8B8;
     font-size: 18px;
@@ -169,7 +208,9 @@ span.pedido {
   align-items: center;
 }
 
-.item .tagline {
+
+.item .btn-pedido{
+  color: #fff;
   font-weight: 700;
   letter-spacing: 0.8px;
   padding: 8px 50px;
@@ -180,6 +221,14 @@ span.pedido {
   margin-bottom: 5px;
   display: inline-block;
 }
+.item .btn-pedido:hover {
+  background-color: rgb(0, 0, 0);
+  border: 3px solid #F48C0A;
+}
+
+
+
+
 
 
 
