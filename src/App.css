@@ -153,6 +153,22 @@ h1,h2,h3,h4,h5,h6{
 .item.container2{
   margin-left: 100px;
 }
+
+.react-multi-carousel-list{
+  margin-top: 70px;
+  margin-bottom: -70px;
+  width: 95%;
+}
+.react-multiple-carousel__arrow{
+  background: #F48C0A !important;
+}
+
+/*pedido*/
+span.pedido {
+  display: flex;
+  align-items: center;
+}
+
 .item .tagline {
   font-weight: 700;
   letter-spacing: 0.8px;
@@ -166,14 +182,6 @@ h1,h2,h3,h4,h5,h6{
 }
 
 
-.react-multi-carousel-list{
-  margin-top: 70px;
-  margin-bottom: -70px;
-  width: 95%;
-}
-.react-multiple-carousel__arrow{
-  background: #F48C0A !important;
-}
 
 
 /*-----------CARD Css-----------------------*/

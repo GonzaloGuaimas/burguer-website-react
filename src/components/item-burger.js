@@ -56,6 +56,7 @@ export const Item = () => {
                                 <h5>(100 Gr C/U BLEND de 3 Cortes)</h5>
                             </div>
                         </Carousel>
+
                         <span className="tagline">¡LA QUIERO!</span>
                         <h5>Toca para Agregar al pedido</h5>
                     </div>
