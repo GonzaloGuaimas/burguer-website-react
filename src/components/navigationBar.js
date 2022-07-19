@@ -6,24 +6,28 @@ import instagram from '../assets/img/instagram.svg';
 import whatsapp from '../assets/img/whatsapp.svg';
 import { useState } from 'react';
 import { useEffect } from 'react';
+import { Windows } from 'react-bootstrap-icons';
 
 export const NavBar = () =>{
 
     const  [activeLink,setActiveLink] = useState("home");
-    const [scrolled,setScrolled] = useState(false);
+    const [show,setShow] = useState(true);
+
+    const controlNavBar = ()=>{
+        if(window.scrollY<100){
+            setShow(false);
+            
+        }else{
+            setShow(true);
+        }
+    }
 
     //efecto de scroll
     useEffect(()=>{
-        const onScroll = () =>{
-            if (window.scrollY >50){
-                setScrolled(true);
-            }else{
-                setScrolled(false);
-            }
-        }
-        window.addEventListener("scroll",onscroll);
 
-        return () => window.removeEventListener("scroll",onScroll);
+        window.addEventListener("scroll",controlNavBar);
+
+        return () => window.removeEventListener("scroll",controlNavBar);
     },[])
 
     const onUpdateActiveLink = (value) =>{
@@ -31,7 +35,7 @@ export const NavBar = () =>{
     }
 
     return(
-        <Navbar expand="md" className={scrolled ? "scrolled":""}>
+        <Navbar expand="md" className={`nav.navbar ${show && 'scrolled'}`}>
             <Container>
                 <Navbar.Brand href="#home">
                     <img src={logo} alt="logo"/>

@@ -5,6 +5,9 @@ import logoMola from "../assets/img/logo-mola.png";
 import { useState } from "react";
 import { useEffect } from "react";
 
+import home from './../App';
+
+
 export const Banner = ()=>{
     
     const [loopNum,setLoopNum] = useState(0);
