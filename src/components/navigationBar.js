@@ -14,7 +14,8 @@ export const NavBar = () =>{
     const [show,setShow] = useState(true);
 
     const controlNavBar = ()=>{
-        if(window.scrollY<100){
+        if(window.scrollY<=100.
+            ){
             setShow(false);
             
         }else{

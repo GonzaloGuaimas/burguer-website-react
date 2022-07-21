@@ -14,7 +14,7 @@ export const BottomBar = () => {
   const [show,setShow] = useState(true);
 
   const controlNavBar = ()=>{
-      if(window.scrollY<900){
+      if(window.scrollY<=900){
           setShow(false);
       }else{
           setShow(true);
