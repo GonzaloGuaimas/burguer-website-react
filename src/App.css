@@ -49,12 +49,12 @@ h1,h2,h3,h4,h5,h6{
   margin-top: 60px;
 }
 .order h2 {
-  color: #F48C0A;
+  color: #FFC406;
 	font-size: 45px;
 	font-weight: 700;
 }
 .order h4 {
-  color: #F48C0A;
+  color: #FFC406;
 	font-size: 45px;
 	font-weight: 700;
 }
@@ -100,7 +100,7 @@ h1,h2,h3,h4,h5,h6{
     margin: 14px 0 75px 0;
 }
 .list-group-item{
-  background-color: #F48C0A !important;
+  background-color: #FFC406 !important;
   color: rgb(0, 0, 0) !important;
   height: 120px;
   border-radius: 10px !important;
@@ -142,14 +142,14 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .item-bx {
-  background: #151515;
+  background: #2A0001;
   border-radius: 10px;
   text-align: center;
   padding: 60px 10px;
   margin-top: 60px;
 }
 .item h2 {
-  color: #F48C0A;
+  color: #FFC406;
 	font-size: 45px;
 	font-weight: 900;
   text-align: start;
@@ -183,7 +183,7 @@ h1,h2,h3,h4,h5,h6{
 .item-slider .item h1 {
   font-size: 40px;
   font-weight: 1000;
-  color: #F48C0A;
+  color: #FFC406;
 }
 .item-slider .item h2 {
   font-size: 30px;
@@ -200,7 +200,7 @@ h1,h2,h3,h4,h5,h6{
   width: 95%;
 }
 .react-multiple-carousel__arrow{
-  background: #F48C0A !important;
+  background: #FFC406 !important;
 }
 
 /*pedido*/
@@ -215,7 +215,7 @@ span.pedido {
   font-weight: 700;
   letter-spacing: 0.8px;
   padding: 8px 50px;
-  background-color: #F48C0A;
+  background-color: #FFC406;
   border: 3px solid rgba(255, 255, 255, 0.5);
   font-size: 20px;
   margin-top: 50px;
@@ -224,7 +224,7 @@ span.pedido {
 }
 .item .btn-pedido:hover {
   background-color: rgb(0, 0, 0);
-  border: 3px solid #F48C0A;
+  border: 3px solid #FFC406;
 }
 
 
@@ -241,14 +241,14 @@ span.pedido {
   position: relative;
 }
 .skill-bx {
-  background: #151515;
+  background: #2A0001;
   border-radius: 20px;
   text-align: center;
   padding: 60px 10px;
   margin-top: -60px;
 }
 .skill h2 {
-  color: #F48C0A;
+  color: #FFC406;
 	font-size: 45px;
 	font-weight: 700;
 }
@@ -271,7 +271,7 @@ span.pedido {
 .skill-slider .item h1 {
   font-size: 40px;
   font-weight: 1000;
-  color: #F48C0A;
+  color: #FFC406;
   margin-bottom: 30px;
 }
 .skill-slider .item h2 {
@@ -289,14 +289,14 @@ span.pedido {
   position: relative;
 }
 .skill2-bx {
-  background: #151515;
+  background: #2A0001;
   border-radius: 0px;
   text-align: center;
   padding: 20px 10px;
   margin-top: 60px;
 }
 .skill2 h2 {
-  color: #F48C0A;
+  color: #FFC406;
 	font-size: 45px;
 	font-weight: 700;
 }
@@ -319,7 +319,7 @@ span.pedido {
 .skill2-slider .item h1 {
   font-size: 40px;
   font-weight: 1000;
-  color: #F48C0A;
+  color: #FFC406;
 }
 .skill2-slider .item h2 {
   font-size: 30px;
@@ -333,7 +333,7 @@ span.pedido {
 /*------------Bottom Bar Css------------------------*/
 .bottomBar h2{
   font-weight: 800;
-  color: #F48C0A;
+  color: #FFC406;
   font-size: 15px;
 }
 .bottomBar button{
@@ -341,7 +341,7 @@ span.pedido {
   color: #fff;
   font-size: 15px;
   padding: 8px;
-  background-color: #F48C0A;
+  background-color: #FFC406;
   border-radius: 5px;
   border: 2px solid rgba(0, 0, 0);
   display: inline-block;
@@ -353,7 +353,7 @@ span.pedido {
 
 .bottomBar button:hover {
   background-color: rgb(0, 0, 0);
-  border: 3px solid #F48C0A;
+  border: 3px solid #FFC406;
 }
 
 .bottom-bar{
@@ -398,7 +398,7 @@ nav.navbar a.navbar-brand {
     width: 9%;
 }
 nav.navbar .navbar-nav .nav-link.navbar-link {
-  color: #F48C0A !important;
+  color: #FFC406 !important;
   letter-spacing: 0.8px;
   padding: 0 20px;
   font-size: 25px;
@@ -421,7 +421,7 @@ span.navbar-text {
 .social-icon a {
     width: 42px;
     height: 42px;
-    background: #F48C0A;
+    background: #FFC406;
     display: inline-flex;
     border-radius: 50%;
     margin-right: 6px;
@@ -454,7 +454,7 @@ span.navbar-text {
 .navbar-text button {
   font-weight: 700;
   color: rgb(255, 255, 255);
-  border: 1px solid #F48C0A;;
+  border: 1px solid #FFC406;;
   padding: 18px 34px;
   font-size: 18px;
   margin-left: 18px;
@@ -470,7 +470,7 @@ span.navbar-text {
   width: 0%;
   height: 100%;
   position: absolute;
-  background-color: #F48C0A;
+  background-color: #FFC406;
   left: 0;
   top: 0;
   z-index: -1;
@@ -612,7 +612,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-weight: 800;
   letter-spacing: 0.8px;
   padding: 8px 20px;
-  background-color: #F48C0A;
+  background-color: #FFC406;
   border: 3px solid rgba(0, 0, 0);
   border-radius: 10px;
   font-size: 20px;

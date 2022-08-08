@@ -1,7 +1,7 @@
 
 
 import { Container,Row,Col } from "react-bootstrap";
-import logoMola from "../assets/img/logo-mola.png";
+import logoMola from "../assets/img/logo.png";
 import { useState } from "react";
 import { useEffect } from "react";
 
@@ -12,7 +12,7 @@ export const Banner = ()=>{
     
     const [loopNum,setLoopNum] = useState(0);
     const [isDeleting,setIsDeleting] = useState(false);
-    const toRotate = ["DOBLE SMOKE SHACK","UMAMI BURGER","DOBLE ROYAL","TRIPLE ROYAL","THE KING MOLA","THE AMERICAN"];
+    const toRotate = ["CALIFORNIA","FREEBIRD","CHEESEBACON","CLASSIC","CRAFT","WEEKEND","DR. FEELGOOD"];
     const [text,setText] = useState('');
     const [delta,setDelta] = useState(300-Math.random()*100);
     const period = 1000;

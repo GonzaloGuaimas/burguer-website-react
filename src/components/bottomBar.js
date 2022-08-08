@@ -33,9 +33,8 @@ export const BottomBar = () => {
             <div className='bottom-bar'>
                 <Col>
                   <Row> <h2>TU ORDEN</h2></Row>
-                  <Row> <p>$3.500</p></Row>
+                  <Row> <p>$3.890</p></Row>
                 </Col>
-                <img src={burguer}></img>
                 <img src={burguer}></img>
                 <img src={burguer}></img>
                 <img src={burguer}></img>

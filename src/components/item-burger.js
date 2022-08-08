@@ -1,7 +1,8 @@
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import logoMola from "../assets/img/logo-mola.png";
-import kingmola from "../assets/burguers/the-king-mola.png";
+import burger1 from "../assets/burguers/3.png";
+import burger2 from "../assets/burguers/4.png";
 
 export const Item = () => {
   const responsive = {
@@ -30,30 +31,28 @@ export const Item = () => {
             <div className="row">
                 <div className="col-12">
                     <div className="item-bx wow zoomIn">
-                        <h2>THE KING MOLA</h2>
+                        <h2>CALIFORNIA</h2>
                         <hr></hr>
-                        <h3>La burguer mágica, la de los aros de cebolla</h3>
-                        <img width={350} src={kingmola} alt="Header"></img>
+                        <h3>Breve Descripción</h3>
+                        <img width={350} src={burger2} alt="Header"></img>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme item-slider">
                             <div className="item">
                                 <h4>PAN DE PAPA</h4>
-                                <h5>(tostado con manteca)</h5>
                             </div>
                             <div className="item">
-                                <h4>SALSA AHUMADA MOLA</h4>
+                                <h4>CARNE</h4>
                             </div>
                             <div className="item">
-                                <h4>AROS DE CEBOLLA</h4>
+                                <h4>GUACAMOLE</h4>
                             </div>
                             <div className="item">
-                                <h4>PANCETA AUMADA</h4>
+                                <h4>CHEDDAR</h4>
                             </div>
                             <div className="item">
-                                <h4>4 FETAS DE CHEDDAR MILKAUT</h4>
+                                <h4>BACON</h4>
                             </div>
                             <div className="item">
-                                <h4>DOBLE MEDALLÓN</h4>
-                                <h5>(100 Gr C/U BLEND de 3 Cortes)</h5>
+                                <h4>HUEVO</h4>
                             </div>
                         </Carousel>
                         <button className='btn-pedido' onClick={()=>console.log('Hacer Pedido')} >!La Quiero¡</button>
@@ -67,30 +66,25 @@ export const Item = () => {
             <div className="row">
                 <div className="col-12">
                     <div className="item-bx wow zoomIn">
-                        <h2>THE KING MOLA</h2>
+                        <h2>FREEBIRD</h2>
                         <hr></hr>
-                        <h3>La burguer mágica, la de los aros de cebolla</h3>
-                        <img width={350} src={kingmola} alt="Header"></img>
+                        <h3>Breve Descripción</h3>
+                        <img width={350} src={burger1} alt="Header"></img>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme item-slider">
                             <div className="item">
                                 <h4>PAN DE PAPA</h4>
-                                <h5>(tostado con manteca)</h5>
                             </div>
                             <div className="item">
-                                <h4>SALSA AHUMADA MOLA</h4>
+                                <h4>CARNE</h4>
                             </div>
                             <div className="item">
-                                <h4>AROS DE CEBOLLA</h4>
+                                <h4>CEBOLLA CARAMELIZADA</h4>
                             </div>
                             <div className="item">
-                                <h4>PANCETA AUMADA</h4>
+                                <h4>PROVOLETA</h4>
                             </div>
                             <div className="item">
-                                <h4>4 FETAS DE CHEDDAR MILKAUT</h4>
-                            </div>
-                            <div className="item">
-                                <h4>DOBLE MEDALLÓN</h4>
-                                <h5>(100 Gr C/U BLEND de 3 Cortes)</h5>
+                                <h4>CHAMPIGNONES</h4>
                             </div>
                         </Carousel>
                         <button className='btn-pedido' onClick={()=>console.log('Hacer Pedido')} >!La Quiero¡</button>

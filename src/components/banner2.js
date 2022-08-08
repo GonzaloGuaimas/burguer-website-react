@@ -1,10 +1,5 @@
 import { Container,Row,Col } from "react-bootstrap";
 import { ArrowDownSquare } from "react-bootstrap-icons";
-import headerImg from "../assets/img/instagram.svg";
-import logoMola from "../assets/img/logo-mola.png";
-import { useState } from "react";
-import { useEffect } from "react";
-import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
 export const Banner2 = ()=>{
@@ -32,7 +27,7 @@ export const Banner2 = ()=>{
             <Container>
                 <Row className="align-items-center">
                     <Col xs={12} md={6} xl={7}>
-                        <h1>{"ES TIEMPO DE ENAMOLARTE"}</h1>
+                        <h1>{"BEST BURGERS IN TOWN"}</h1>
                     </Col>
                 </Row>
                

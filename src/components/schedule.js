@@ -2,7 +2,10 @@
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import logoMola from "../assets/img/logo-mola.png";
-
+import craft from "../assets/img/craftburgers.png";
+import drinks from "../assets/img/drinkstoaccompany.png";
+import extra from "../assets/img/extratoppings.png";
+import vegetarian from "../assets/img/vegetarianburgers.png";
 export const Schedule = () => {
   const responsive = {
     superLargeDesktop: {
@@ -30,33 +33,21 @@ export const Schedule = () => {
             <div className="row">
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
-                        <h2>TURNOS</h2>
+                        <h2>Burger & Beer</h2>
                         <h3>Delivery y Takeaway</h3>
-                        <p>A medida que se llena el cupo de cada uno pasas al siguiente<br></br> Cuando tomamos tu pedido te asignamos alguno de los turnos para que retires.</p>
+                        <p>Abierto de Miércoles a Domingos<br></br>20 a 01<br></br>Zuviria 2360</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                <img src={logoMola} alt="Image" />
-                                <h1>4°</h1>
-                                <h2>21:00</h2>
-                                <h5>Junin 575</h5>
+                                <img src={craft} alt="Image" />
                             </div>
                             <div className="item">
-                                <img src={logoMola} alt="Image" />
-                                <h1>1°</h1>
-                                <h2>21:00</h2>
-                                <h5>Junin 575</h5>
+                                <img src={vegetarian} alt="Image" />
                             </div>
                             <div className="item">
-                                <img src={logoMola} alt="Image" />
-                                <h1>2°</h1>
-                                <h2>21:00</h2>
-                                <h5>Junin 575</h5>
+                                <img src={drinks} alt="Image" />
                             </div>
                             <div className="item">
-                                <img src={logoMola} alt="Image" />
-                                <h1>3°</h1>
-                                <h2>21:00</h2>
-                                <h5>Junin 575</h5>
+                                <img src={extra} alt="Image" />
                             </div>
                         </Carousel>
                     </div>
